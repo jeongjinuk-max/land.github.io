@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#map {
+    width: 90%;
+    height: 600px;
+    margin: 20px auto;
+    border: 2px solid #333;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.zoomBtn {
+    background-color: #00f;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#zoomButtons {
+    margin-top: 10px;
+}
+
+#legend {
+    margin-top: 20px;
+}
+
+.legend-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.high-crime {
+    background: linear-gradient(to right, red, orange);
+    width: 50%;
+    height: 20px;
+}
+
+.low-crime {
+    background: linear-gradient(to right, orange, yellow);
+    width: 50%;
+    height: 20px;
+}
+
+.legend-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-text, .right-text {
+    font-size: 14px;
+}
+
+#locationBtn {
+    margin-top: 20px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#zoomButtons {
+    display: none; /* +, - 버튼을 숨깁니다 */
+}
+
+#legend {
+    margin-top: 20px;
+}
+
+.legend-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.high-crime {
+    background: linear-gradient(to right, red, orange);
+    width: 50%;
+    height: 20px;
+}
+
+.low-crime {
+    background: linear-gradient(to right, orange, yellow);
+    width: 50%;
+    height: 20px;
+}
+
+.legend-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-text, .right-text {
+    font-size: 14px;
+}
+
+#locationBtn {
+    margin-top: 20px;
+}
